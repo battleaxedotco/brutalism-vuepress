@@ -1,0 +1,28 @@
+{
+  "name": "fake-docs",
+  "version": "1.0.0",
+  "description": "VuePress version of brutalism docs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vuepress dev",
+    "build": "vuepress build",
+    "docs:build": "vuepress build build"
+  },
+  "keywords": [],
+  "author": "Thomas Scharstein II <tom@inventsable.cc>",
+  "license": "ISC",
+  "dependencies": {
+    "brutalism": "^1.6.3",
+    "cep-spy": "^1.1.11",
+    "cluecumber": "0.0.7",
+    "starlette": "^1.0.3",
+    "vue-pan": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "^1.5.0"
+  }
+}
