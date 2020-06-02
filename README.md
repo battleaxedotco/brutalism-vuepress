@@ -1,4 +1,8 @@
-# Home
+<Landing-Title />
+
+## Demo
+
+<Demo />
 
 ## Getting Started
 
